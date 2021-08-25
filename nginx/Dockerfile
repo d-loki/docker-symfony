@@ -1,7 +1,5 @@
 FROM nginx:1.19.6
 
-LABEL maintainer="Vincent Composieux <vincent.composieux@gmail.com>"
-
 RUN mkdir -p /etc/nginx/templates \
     mkdir -p /tmp/nginx
 
